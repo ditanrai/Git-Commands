@@ -5,62 +5,62 @@
 
 1. Create folder and new repository in local machine and initilize it.
 
-=> git init
+=> `git init`
 
 
 2. Check current status.
 
-=> git status
+=> `git status`
 
 
 3. Check the branch in Master.
 
-=> git branch
+=> `git branch`
 
 
 4. Create new branch.
 
-=> git checkout -b {"branch-name": given by us} or {"topic1/storynumber1"}
+=> `git checkout -b {"branch-name": given by us} or {"topic1/storynumber1"}`
 
 
 5. Connect local repository to remote repository.
 
-=> git remote add origin {"repository-path"}
+=> `git remote add origin {"repository-path"}`
 
 
 6. Pull changes from remote repository {Pulling file from remote server}.
 
-=> git pull origin {"remote-master-name"} or {"remote-branch-name"}
+=> `git pull origin {"remote-master-name"} or {"remote-branch-name"}`
 
 
 7. Commit(save) the changes you made.
 
-=> git commit -m "comments"
+=> `git commit -m "comments"`
 
 
 8. Adding file to the staging area.
 
-=> git add {"file-name": adding single file}
+=> `git add {"file-name": adding single file}`
 
-=> git add . {To add all file}
+=> `git add . {To add all file}`
 
 
 9. Again commit.
 
-=> git commit -m "comments"
+=> `git commit -m "comments"`
 
 
 10. Push the branch to your remote repository.
 
-=> git push
+=> `git push`
 
 or
 
-=> git push origin {"branch-name": given by us}
+=> `git push origin {"branch-name": given by us}`
 
 or
 
-=> git push --set-upsteam origin {"branch-name": given by us}
+=> `git push --set-upsteam origin {"branch-name": given by us}`
  
  
 
@@ -78,36 +78,36 @@ or
 
 3. Before continue further we need to remove all the existing git files from the folder.
 
-=> rd .git /S/Q
+=> `rd .git /S/Q`
 
 
 4. Initilize the git 
 
-=> git init
+=> `git init`
 
 
 5. Add files to the git 
 
-=> git add . {adding all the files inside the folder}
+=> `git add . {adding all the files inside the folder}`
 
 
 6. Commit all the changes made by us
 
-=> git commit -m "comments"
+=> `git commit -m "comments"`
 
 
 7. Connecting local repository to the remote repository
 
-=> git remote add origin {"repository-path"}
+=> `git remote add origin {"repository-path"}`
 
 
 8. Uploading the file or project into the git repository
 
-=> git push -u origin master
+=> `git push -u origin master`
 
 or
 
-=> git push --push-upstream origin {"branch-name" or "master"}
+=> `git push --push-upstream origin {"branch-name" or "master"}`
 
 
 
