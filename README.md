@@ -1,6 +1,6 @@
 # Git-Commands
 
-#### TO PULL AND TO PUSH THE GIT REPOSITORY FROM SERVER AND LOCAL MECHINE.
+### TO PULL AND TO PUSH THE GIT REPOSITORY FROM SERVER AND LOCAL MECHINE.
 
 
 1. Create folder and new repository in local machine and initilize it.
@@ -68,7 +68,7 @@ or
 
 
 
-#### TO UPLOAD THE FILES AND PROJECT FROM LOCAL MECHINE TO REMOTE SERVER.
+### TO UPLOAD THE FILES AND PROJECT FROM LOCAL MECHINE TO REMOTE SERVER.
 
 1. First create "New repository" in GitHub.
 
