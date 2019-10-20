@@ -1,21 +1,113 @@
 # Git-Commands
 
-You Can do by Two ways,
+TO PULL AND TO PUSH THE GIT REPOSITORY FROM SERVER AND LOCAL MECHINE.
 
-1. Cloning the Remote Repo to your Local host
 
-example: git clone https://github.com/user-name/repository.git
+1. Create folder and new repository in local machine and initilize it.
 
-2. Pulling the Remote Repo to your Local host
+=> git init
 
-First you have to create a git local repo by,
 
-example: git init or git init repo-name then, git pull https://github.com/user-name/repository.git
+2. Check current status.
 
-That's all, All commits and branch in the remote repo now available in the local repository of your computer.
+=> git status
 
-Happy Coding, cheers -:)
 
+3. Check the branch in Master.
+
+=> git branch
+
+
+4. Create new branch.
+
+=> git checkout -b {"branch-name": given by us} or {"topic1/storynumber1"}
+
+
+5. Connect local repository to remote repository.
+
+=> git remote add origin {"repository-path"}
+
+
+6. Pull changes from remote repository {Pulling file from remote server}.
+
+=> git pull origin {"remote-master-name"} or {"remote-branch-name"}
+
+
+7. Commit(save) the changes you made.
+
+=> git commit -m "comments"
+
+
+8. Adding file to the staging area.
+
+=> git add {"file-name": adding single file}
+
+=> git add . {To add all file}
+
+
+9. Again commit.
+
+=> git commit -m "comments"
+
+
+10. Push the branch to your remote repository.
+
+=> git push
+
+or
+
+=> git push origin {"branch-name": given by us}
+
+or
+
+=> git push --set-upsteam origin {"branch-name": given by us}
+ 
+ 
+
+==================================================================
+
+
+
+TO UPLOAD THE FILES AND PROJECT FROM LOCAL MECHINE TO REMOTE SERVER.
+
+1. First create "New repository" in GitHub.
+
+
+2. Go to the local project folder where all the project's files are resides and inside the project folder open the command prompt "cmd"
+
+
+3. Before continue further we need to remove all the existing git files from the folder.
+
+=> rd .git /S/Q
+
+
+4. Initilize the git 
+
+=> git init
+
+
+5. Add files to the git 
+
+=> git add . {adding all the files inside the folder}
+
+
+6. Commit all the changes made by us
+
+=> git commit -m "comments"
+
+
+7. Connecting local repository to the remote repository
+
+=> git remote add origin {"repository-path"}
+
+
+8. Uploading the file or project into the git repository
+
+=> git push -u origin master
+
+or
+
+=> git push --push-upstream origin {"branch-name" or "master"}
 
 
 
